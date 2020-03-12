@@ -9,7 +9,7 @@ namespace MVCMusicStoreCodeFirst.DAL
     public class MusicStoreDbInitializer : System.Data.Entity.DropCreateDatabaseAlways<MusicStoreDB>
     {
         protected override void Seed(MusicStoreDB context)
-        {
+        {//
             var Artist = new List<Artist>
             {
                 new Artist{Name="Panic at the Disco"},
